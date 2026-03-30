@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from fastapi.middleware.cors import CORSMiddleware
+import os
 
 from database import engine, Base, get_db
 import models, schemas
@@ -8,6 +9,8 @@ import models, schemas
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 app.add_middleware(
     CORSMiddleware,
