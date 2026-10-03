@@ -1,8 +1,8 @@
-﻿# Personal Finance Tracker ðŸ’°ðŸ“ˆ
+# Personal Finance Tracker
 
-Full-stack personal finance management â€” track income, expenses, and savings goals.
+Full-stack personal finance management -- track income, expenses, and savings goals.
 
-**Live Demo:** [personal-finance-one-sand.vercel.app](https://personal-finance-one-sand.vercel.app)
+**Live:** [personal-finance-one-sand.vercel.app](https://personal-finance-one-sand.vercel.app)
 
 ## Tech Stack
 
@@ -15,11 +15,11 @@ Full-stack personal finance management â€” track income, expenses, and savi
 
 ## Features
 
-- ðŸ’µ **Income & Expense Tracking** â€” Log transactions with categories
-- ðŸ¦ **Budget Management** â€” Set and monitor monthly budgets
-- ðŸ“Š **Visual Reports** â€” Spending breakdowns and trends
-- ðŸŽ¯ **Savings Goals** â€” Track progress toward financial goals
-- ðŸ“¤ **CSV Export** â€” Download transaction history
+- Income and expense tracking -- log transactions with categories
+- Budget management -- set and monitor monthly budgets
+- Visual reports -- spending breakdowns and trends
+- Savings goals -- track progress toward financial goals
+- CSV export -- download transaction history
 
 ## Getting Started
 
@@ -37,4 +37,4 @@ npm run dev
 
 ## License
 
-MIT Â© [Atharva Desai](https://github.com/atharvez)
+MIT (c) Atharva Desai
